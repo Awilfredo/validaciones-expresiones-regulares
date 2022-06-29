@@ -13,3 +13,7 @@ main{
     display: flex;
     justify-content: space-around;
 }
+
+#pass-req{
+    font-size: 10px;
+}
