@@ -35,9 +35,11 @@ function validarDatos(){
 
     if(isValid){
         if (!expRegpass.test(pass.value)) {
+            pass.focus();
+            pass.value="";
             pass.className="form-control is-invalid";
             alert("La Contraseña debe tener:\nMinimo 8 caracteres\nMaximo 15\nAl menos una letra mayúscula\nAl menos una letra minucula\nAl menos un dígito\nNo espacios en blanco\nAl menos 1 caracter especial");
-            pass.value="";         
+                    
         } else {
             pass.className="form-control";
                      
