@@ -32,13 +32,36 @@
             <label for="apellido">Last Name</label>
         </div>
         <div class="form-floating mb-2">
+            <input type="text" class="form-control" id="edad" placeholder="Edad">
+            <label for="edad">Edad</label>
+            <p id="edad-req" class="text-danger d-none">La la edad debe ser entre 18 y 65 años</p>
+        </div>
+        <div class="form-floating mb-2">
+            <input type="text" class="form-control" id="dui" placeholder="Apellido">
+            <label for="dui">  DUI</label>
+        </div>
+        <div class="form-floating mb-2">
+            <input type="text" class="form-control" id="nit" placeholder="Apellido">
+            <label for="nit">  NIT</label>
+        </div>
+        <div class="telefono">
+        <div class="form-floating ">
+            <input type="text" class="form-control" id="area" placeholder="Codigo">
+            <label for="Area">  Codigo</label>
+        </div>
+        <div class="form-floating mb-2">
+            <input type="text" class="form-control" id="tel" placeholder="Telefono">
+            <label for="tel">Telefono</label>
+        </div>
+    </div>
+        <div class="form-floating mb-2">
             <input type="email" class="form-control" id="email" placeholder="name@example.com">
         <label for="email">Email address</label>
         </div>
         <div class="form-floating mb-2">
             <input type="password" class="form-control" id="password" placeholder="Password">
             <label for="password">Password</label>
-            <p id="pass-req" class="text-danger d-none">La Contraseña debe tener:<br>Minimo 8 caracteresMaximo 15<br>Al menos una letra mayúscula<br>Al menos una letra minucula<br>Al menos un dígito<br>No espacios en blanco<br>Al menos 1 caracter especial</p>
+            <p id="pass-req" class="text-danger d-none">La Contraseña no debe tener simbolos</p>
         </div>
 
         <br>

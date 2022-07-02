@@ -14,6 +14,19 @@ main{
     justify-content: space-around;
 }
 
+#edad-req{
+    font-size: 10px;
+
+}
 #pass-req{
     font-size: 10px;
+}
+
+#area{
+    width: 100px;
+}
+
+.telefono{
+    display: flex;
+    justify-content:space-between;
 }
